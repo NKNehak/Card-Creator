@@ -21,11 +21,20 @@ public class birthday extends AppCompatActivity {
             TextView bm2 = findViewById(R.id.bk);
             TextView bm3 = findViewById(R.id.bl);
             TextView bm4 = findViewById(R.id.bm);
+            TextView m5 = findViewById(R.id.bfestival);
 
             bm4.append(from);
             bm2.append(to);
             bm3.setText(message);
             bm1.setText(heading);
+            
+              m5.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(getApplicationContext(), list.class));
+                    finish();
+                }
+            });
         }}
 }
 
