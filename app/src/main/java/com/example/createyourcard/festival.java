@@ -19,8 +19,18 @@ public class festival extends AppCompatActivity {
             String heading= bundle.getString("Heading");
             TextView fm1 = findViewById(R.id.fs);
             TextView fm3 = findViewById(R.id.fl);
+            TextView m5 = findViewById(R.id.bfestival);
 
             fm3.setText(message);
             fm1.setText(heading);
+            
+            
+            m5.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(getApplicationContext(), list.class));
+                    finish();
+                }
+            });
         }}
 }
