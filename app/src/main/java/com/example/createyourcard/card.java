@@ -23,11 +23,20 @@ public class card extends AppCompatActivity {
             TextView m2 = findViewById(R.id.k);
             TextView m3 = findViewById(R.id.l);
             TextView m4 = findViewById(R.id.m);
+            TextView m5 = findViewById(R.id.bcard);
 
           m4.append(from);
             m2.append(to);
             m3.setText(message);
             m1.setText(heading);
+            
+              m5.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(getApplicationContext(), list.class));
+                    finish();
+                }
+            });
         }}
     }
 
