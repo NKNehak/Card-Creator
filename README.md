@@ -7,4 +7,5 @@ An app that creates card as per occasion. you need to add inputs like Sender's n
 2. Clone this repo
 3. Make the required changes 
 4. Create Pull Request
+
 Congrats!👏 you made a contribution towards HacktoberFest2020
