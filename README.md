@@ -1,7 +1,6 @@
 # Card-Creator
 An app that creates card as per occasion. you need to add inputs like Sender's name, Receiver's name, etc. Then you will get card which you can easily share and print. 
 ##  Contribute to Hacktoberfest2020
-https://events-feed.github.com/events/hacktoberfest-2020/hacktoberfest.png
 ### Steps to contribute
 
 1. Fork this Repo
