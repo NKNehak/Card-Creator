@@ -5,6 +5,17 @@
     android:background="#BBEF7E"
     android:orientation="vertical"
     android:padding="15dp">
+    
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#F3685E"
+        android:padding="5dp"
+        android:text="BACK"
+        android:clickable="true"
+        android:textSize="25sp" />
 
     <TextView
         android:id="@+id/a"
