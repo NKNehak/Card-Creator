@@ -16,7 +16,8 @@ public class list extends AppCompatActivity {
 
         TextView a1=findViewById(R.id.a);
         first= a1.getText().toString();
-
+        TextView a2=findViewById(R.id.back);
+        
         a1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,4 +25,12 @@ public class list extends AppCompatActivity {
                 intent.putExtra(Intent.EXTRA_TEXT,first);
                 startActivity(intent);
     }
-});}}
+});
+    a2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(list.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
+    }}
